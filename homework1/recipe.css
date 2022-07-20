@@ -1,5 +1,5 @@
 .header {
-    color: #A4A400;
+    color:#A4A400;
     background-color: #F0F0F0;
     font-family: Lucida Sans Unicode;
     text-decoration: underline;
@@ -12,12 +12,13 @@
     font-family: lighter;
 }
 body {
+    
+    
     background-image: url("silverware.jpg");
-    background-color: white;
     color: #404040;
     /**font-size: 11pt;*/
     font-family: Georgia;
-    size: 1024x768;
+   
 }
 a {
     color: #A4A400;
