@@ -1,0 +1,39 @@
+body{
+    background-color:darkslategray
+   
+}
+body>div::first-letter,ol::first-letter,li::first-letter,p::first-letter{
+    font-size: 1.5em;
+}
+p ,li,h4{
+    color: white;
+}
+.goldencolor{
+    color: gold;
+}
+h3,h1{
+    color:cornflowerblue
+}
+li a{
+    color: red;
+    text-decoration-line: none;
+}
+li a:hover{
+    text-decoration: underline;
+    
+}
+  .pics{
+    display: inline-flex;
+    margin: auto;
+    width: 325px;
+    height: 225px;
+  }
+  .pics img{
+   padding-left: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  ol{
+    display: flex;
+    flex-direction: column-reverse;
+  }
