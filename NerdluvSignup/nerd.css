@@ -1,0 +1,85 @@
+
+
+.logo {
+    margin-left: 25%;
+
+}
+
+.signUpBox {
+    border: 5px solid rgb(146, 170, 146);
+    border-radius: 2em 4em 4em/0.5em 6em;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 15px 25px gold;
+    height: 500px;
+    background-color:cornflowerblue;
+    
+}
+.textField, .footer {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.form {
+    margin-top: 15%;
+    margin-left: 3%;
+}
+label {
+    font-weight: bold;
+    margin-left: 10%;
+    padding-bottom: 5px;
+}
+
+#name {
+    margin-left: 7%;
+
+}
+
+#age {
+    margin-left: 8%;
+    
+}
+
+#os {
+    margin-left: 5%;
+    margin: 10px;
+}
+
+#personality {
+    margin-left: 6%;
+    margin: 10px;
+}
+a:hover{
+    background-color: rgb(146, 146, 153);
+    font-weight: bolder;
+    font-size: x-large;
+   color: red;
+}
+#min {
+    margin-left: 1%;
+}
+
+#max {
+    margin-left: 1%;
+}
+
+#to {
+    margin-left: 1%;
+}
+
+#male {
+    margin-left: 28px;
+}
+
+#submit {
+    font-weight: bold;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    background-color: rgb(176, 190, 116);
+}
+p {
+    font-size: x-large;
+    color: black;
+    font-weight: bolder;
+}
