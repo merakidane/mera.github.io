@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./grade.css" rel="stylesheet">
+        <title>Retrieve Grade</title>
+
+    </head>
+
+    <body>
+        <h1>Retrieve Grade</h1>
+        <div id="gradeBox">
+
+            <form id="form" action="http://mumstudents.org/params.php" autocomplete="on">
+                <label for="firstName"> First Name</label><br>
+                <input type="text" id="fname" name="firstName" placeholder="First Name"><br>
+                <label for="latNameName"> Last Name</label><br>
+                <input type="text" id="lname" name="lastName" placeholder="Last Name"><br>
+                <label for="id"> Student ID</label><br>
+                <input type="text" id="sId" name="sId" placeholder="ID"><br>
+                <label for="Assigment" id="assign">Assigments:</label>
+                <br>
+                <div class="drop">
+                    <select id="assign" name="assignment">
+                        <option value="Lab1">Lab1</option>
+                        <option value="Lab2">Lab2</option>
+                        <option value="Lab3">Lab3</option>
+                        <option value="Lab4">Lab4</option>
+                    </select>
+                </div>
+                <h2>Which entry are you?</h2>
+                <input type="radio" name="cc" value="Feburary" />Feburary<br>
+                <input type="radio" name="cc" value="May" /> May<br>
+                <input type="radio" name="cc" value="August" /> August<br>
+                <input type="radio" name="cc" value="November" /> November<br>
+                <br>
+                <h2>Did you see another Student's grade?</h2>
+                <input type="checkbox" id="addmit" name="tell_truth">Yes I did see it!<br>
+                <input type="checkbox" id="decline" name="tell_truth">No I did not see it!
+                <br>
+                <br>
+                <button type="submit" id="submit" name="submit"> Submit </button>
+
+            </form>
+        </div>
+
+    </body>
+
+</html>
