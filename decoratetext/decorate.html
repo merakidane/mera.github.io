@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="./decorate.css" rel="stylesheet">
+		<title>Decorate my Text</title>
+
+	</head>
+
+	<body>
+		<div>
+			<h1 id="header">Text Decorator</h1>
+			<img id="image" src="./decoratedimg.jpeg" alt="very decorated!" />
+		</div>
+		<div>
+			<fieldset>
+				<legend>Text</legend>
+				<textarea id="textArea" type="text" placeholder="Sample Item 1" raws="4" cols="30"></textarea>
+			</fieldset>
+			<fieldset>
+				<legend>Decoration</legend>
+				<button type="button" id="btn1" onclick="interval()">Bigger Decorations</button><br><br>
+				<input type="checkbox" onclick="changeFont()" id="bling">
+				<label for="bling" id="check1">Bling</label><br><br>
+				<input onclick="pig()" type="button" value="Igpay Atinlay"><br><br>
+				<input for="markov" id="markov" type="button" onclick="markov()" value="Malkovich">
+			</fieldset>
+		</div>
+
+		<!-- Your UI controls go here -->
+		<script src="./decorate.js"></script>
+	</body>
+
+</html>
