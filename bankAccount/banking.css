@@ -1,0 +1,41 @@
+body {
+    background-image: url("./th.jpeg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#container {
+    width: 80%;
+    border: 7px solid blue;
+    margin-left: 10%;
+    margin-top: 10%;
+    box-shadow: 15px 15px rgb(227, 165, 165);
+}
+form {
+    margin: 10%;
+    width: 60%;
+}
+textarea {
+    margin-left: 10%;
+    min-width: 60%;
+    max-width: 60%;
+    min-height: 150px;
+}
+button {
+    margin-left: 10%;
+}
+input, label {
+    margin-left: 10%;
+    font-family: bold;
+    width: 60%;
+    font-size: 30px;
+}
+#deposit {
+    margin-left: 10%;
+    width:  100px;
+}
+#debit {
+    margin-left: 10%;
+    width: 100px;
+}
