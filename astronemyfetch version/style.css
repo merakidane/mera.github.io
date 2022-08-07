@@ -1,0 +1,18 @@
+body {
+    background-image: url("http://getwallpapers.com/wallpaper/full/f/3/0/949358-astronomy-desktop-backgrounds-1920x1200-samsung.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+
+div {
+    margin-left: 25%;
+    width: 50%;
+    height: 50px;
+}
+img {
+    height: 500px;
+    width: 700px;
+}
